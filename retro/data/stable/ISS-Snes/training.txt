@@ -1,0 +1,2 @@
+python3 -m baselines.run --alg=ppo2 --env=ISS-Snes --gamestate=game-start --num_timesteps=1e3 --num_env=1 --load_path=./openai/ISS-Snes_No_Start --save_path=./openai/ISS-Snes_No_Start --play
+

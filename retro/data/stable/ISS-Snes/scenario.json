@@ -1,0 +1,71 @@
+{
+  "crop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "done": {
+    "condition": "any",
+    "variables": {
+      "Goals_CPU": {
+        "op": "equal",
+        "reference": 1
+      },
+      "Goals_For": {
+        "op": "equal",
+        "reference": 1
+      }
+    }
+  },
+  "reward": {
+    "variables": {
+      "Penalty": {
+        "reward": -10000.0
+      },
+      "Goals_CPU": {
+        "reward": -10000.0
+      },
+      "Goals_For": {
+        "reward": 10000.0
+      },
+      "Shoot_CPU": {
+        "reward": 1000.0
+      },
+      "Shoot_For": {
+        "reward": 1000.0
+      },
+      "Throw-in": {
+        "reward": -100.0
+      },
+      "Corners": {
+        "reward": -100.0
+      },
+      "Free_Kick": {
+        "reward": -100.0
+      },
+      "Yellow_Card": {
+        "reward": -100.0
+      },
+      "Possession": {
+        "measurement": "absolute",
+        "op": "equal",
+        "reference": 2,
+        "reward": 2.0
+      },
+      "CPU_Possession": {
+        "measurement": "absolute",
+        "op": "equal",
+        "reference": 3,
+        "reward": -1.0
+      },
+      "Free_Ball": {
+        "measurement": "absolute",
+        "op": "equal",
+        "reference": 1,
+        "reward": -0.5
+      }
+    }
+  }
+}
+

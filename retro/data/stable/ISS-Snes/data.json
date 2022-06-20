@@ -1,0 +1,60 @@
+{
+  "info": {
+    "Corners": {
+      "address": 6076,
+      "type": "|d1"
+    },
+    "Free_Kick": {
+      "address": 6059,
+      "type": "|d1"
+    },
+    "Goals_CPU": {
+      "address": 6004,
+      "type": "|u1"
+    },
+    "Goals_For": {
+      "address": 5924,
+      "type": "|u1"
+    },
+    "Penalty": {
+      "address": 6077,
+      "type": "|d1"
+    },
+    "Shoot_CPU": {
+      "address": 6058,
+      "type": "|d1"
+    },
+    "Shoot_For": {
+      "address": 5978,
+      "type": "|d1"
+    },
+    "Throw-in": {
+      "address": 3984,
+      "type": "|d1"
+    },
+    "Yellow_Card": {
+      "address": 5999,
+      "type": "|d1"
+    },
+    "Possession": {
+      "address": 5952,
+      "type": "|d1"
+    },
+    "CPU_Possession": {
+      "address": 5952,
+      "type": "|d1"
+    },
+    "Free_Ball": {
+      "address": 5952,
+      "type": "|d1"
+    },
+    "time_MIN": {
+      "address": 6727,
+      "type": "|u1"
+    },
+    "time_SEC": {
+      "address": 6726,
+      "type": "|d1"
+    }
+  }
+}
